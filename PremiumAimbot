@@ -1,1 +1,7 @@
-loadstring(game:HttpGet("https://star-scripts.com/api/run/4NWcDcJNhq1BF_flLXTLeyhSiTLDxbTq"))()
+task.spawn(function()
+     loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/R0Yp5t7qYTMZuCHO/raw"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xv3gasx/Murder-Mystery-2/refs/heads/main/Release.lua"))() 
+end)
